@@ -22,11 +22,4 @@ public class BookServiceImpl implements BookService {
 		return bookRepository.save(book);
 	}
 
-	@Override
-	public List<Book> getAllBooksById(long userId) {
-		
-		return bookRepository.getAllBooksByUserId(userId);
-		
-	}
-
 }
