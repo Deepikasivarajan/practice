@@ -11,3 +11,7 @@ public class EducationApplication {
 	}
 
 }
+
+public void string(){
+hi;
+}
